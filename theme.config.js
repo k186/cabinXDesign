@@ -1,76 +1,69 @@
 /**
  * Created by k186 on 2022/8/22.
- * Name: 主题相关配置
+ * Name: 主题相关配置涉及国际化配置参考i18n
  * GitHub:
  * Email: k1868548@gmail.com
  */
 
-module.exports={
-  navbar: {
-    title: 'My Site',
-    logo: {
-      alt: 'My Site Logo',
-      src: 'img/logo.svg',
+module.exports = {
+    navbar: {
+        title: 'CabinX',
+        logo: {
+            alt: 'CabinX logo',
+            src: 'img/logo.svg',
+        },
+        items: [
+            {
+                type: 'doc',
+                docId: 'components/index',
+                position: 'left',
+                label: 'doc',
+            },
+            {
+                type: 'doc',
+                docId: 'cli/index',
+                position: 'left',
+                label: 'CLI',
+            },
+            {
+                href: 'https://github.com/k186/cabinXDesign',
+                label: 'GitHub',
+                position: 'right',
+            },
+        ],
     },
-    items: [
-      {
-        type: 'doc',
-        docId: 'intro',
-        position: 'left',
-        label: 'Tutorial',
-      },
-      {to: '/blog', label: 'Blog', position: 'left'},
-      {
-        href: 'https://github.com/facebook/docusaurus',
-        label: 'GitHub',
-        position: 'right',
-      },
-    ],
-  },
-  footer: {
-    style: 'dark',
-    links: [
-      {
-        title: 'Docs',
-        items: [
-          {
-            label: 'Tutorial',
-            to: '/docs/intro',
-          },
+    footer: {
+        style: 'dark',
+        links: [
+            {
+                title: 'Docs',
+                items: [
+                    {
+                        label: '组件',
+                        to: '/docs/components/index',
+                    },
+                    {
+                        label: 'cli',
+                        to: '/docs/cli/index',
+                    },
+                ],
+            },
+            {
+                title: 'Community',
+                items: [
+                    {
+                        label: '飞书',
+                        type:'popover',
+                        icon:'',
+                        href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                    }
+                ],
+            }
         ],
-      },
-      {
-        title: 'Community',
-        items: [
-          {
-            label: 'Stack Overflow',
-            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          },
-          {
-            label: 'Discord',
-            href: 'https://discordapp.com/invite/docusaurus',
-          },
-          {
-            label: 'Twitter',
-            href: 'https://twitter.com/docusaurus',
-          },
-        ],
-      },
-      {
-        title: 'More',
-        items: [
-          {
-            label: 'Blog',
-            to: '/blog',
-          },
-          {
-            label: 'GitHub',
-            href: 'https://github.com/facebook/docusaurus',
-          },
-        ],
-      },
-    ],
-    copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-  },
+        copyright: `Copyright © ${new Date().getFullYear()} cabinX Group.`,
+    },
+    colorMode: {
+        disableSwitch: true,
+    },
 }
 
