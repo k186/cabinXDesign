@@ -21,14 +21,16 @@ const sidebars = {
         {
             type: 'category',
             label: '组件属性',
+            collapsible: false,
             collapsed: false,
-            items: ['components/index','components/button/use'],
+            items: ['components/index','components/button/use'],//todo sidebar doc切换情况下保持存在
         },
     ],
     cli: [
         {
             type: 'category',
             label: 'Getting Started',
+            collapsible: false,
             collapsed: false,
             items: ['cli/index'],
         },
