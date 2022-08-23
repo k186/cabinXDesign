@@ -1,14 +1,23 @@
 .tabs{
-  .tabsImg{
-    display: block;
+  display: block;
+  height: 260px;
+  background: #eef1f4;
+  padding: var(--ifm-pre-padding);
+  .tabHead{
+    font-size: 40px;
+    font-weight: bold;
   }
-  .tabBox{
-    display: flex;
-    .tabItem{
-      cursor: pointer;
-      &.active{
-        border-bottom: 2px solid red;
-      }
-    }
+  .tabDesc{
+    font-size: 13px;
+  }
+}
+.tabBox{
+  display: flex;
+
+}
+.tabItem{
+  cursor: pointer;
+  &.active{
+    border-bottom: 2px solid red;
   }
 }

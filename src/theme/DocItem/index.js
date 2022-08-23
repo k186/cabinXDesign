@@ -7,9 +7,10 @@ import DocContentTabs from '@components/global/DocContentTabs'
 export default function DocItem(props) {
   const docHtmlClassName = `docs-doc-id-${props.content.metadata.unversionedId}`;
   const MDXComponent = props.content;
-
   const {metadata, frontMatter} = MDXComponent;
   const {
+    title,
+    description,
     //#region ------- CUSTOM CODE --------
     tabCode
     //#endregion
@@ -17,10 +18,10 @@ export default function DocItem(props) {
   MDXComponent.frontMatter.hide_title=true
   return (
     <DocProvider content={props.content}>
+      {tabCode&&<DocContentTabs tabCode={tabCode} title={title} description={description}/>}
       <HtmlClassNameProvider className={docHtmlClassName}>
         <DocItemMetadata />
         <DocItemLayout>
-          {tabCode&&<DocContentTabs tabCode={tabCode}/>}
           <MDXComponent />
         </DocItemLayout>
       </HtmlClassNameProvider>

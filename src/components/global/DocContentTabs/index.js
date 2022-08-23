@@ -7,14 +7,20 @@ import Link from '@docusaurus/Link';
 
 
 export default function DocContentTabs(props) {
+    const {tabCode, title, description} = props
     return (
-        <div className={clsx(styles.tabs)}>
-            <img className={clsx(styles.tabsImg)} src={img} alt=""/>
+        <>
+            <div className={clsx('row', styles.tabs)}>
+                <div className={clsx(styles.tabHead)}>{title}</div>
+                <div className={clsx(styles.tabDesc)}>{description}</div>
+            </div>
             <div className={clsx(styles.tabBox)}>
-                {tabConfig.map((el)=>{
-                    return (<div key={el.code} className={clsx(styles.tabItem,el.code===props.tabCode?styles.active:'')}><Link to={`./${el.code}`}>{el.label}</Link></div>)
+                {tabConfig.map((el) => {
+                    return (<div key={el.code}
+                                 className={clsx(styles.tabItem, el.code === tabCode ? styles.active : '')}><Link
+                        to={`./${el.code}`}>{el.label}</Link></div>)
                 })}
             </div>
-        </div>
+        </>
     )
 }
