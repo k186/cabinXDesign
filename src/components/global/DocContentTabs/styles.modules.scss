@@ -1,0 +1,14 @@
+.tabs{
+  .tabsImg{
+    display: block;
+  }
+  .tabBox{
+    display: flex;
+    .tabItem{
+      cursor: pointer;
+      &.active{
+        border-bottom: 2px solid red;
+      }
+    }
+  }
+}

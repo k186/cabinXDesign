@@ -1,6 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
+const path =require('path')
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const themeConfig =require('./theme.config.js')
@@ -32,6 +32,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          breadcrumbs: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -53,6 +54,17 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  plugins:[
+    'docusaurus-plugin-sass',
+    [
+      'docusaurus-plugin-module-alias',
+      {
+        alias: {
+          '@components': path.resolve(__dirname, './src/components'),
+        },
+      },
+    ],
+  ]
 };
 
 module.exports = config;

@@ -56,6 +56,11 @@ module.exports = {
                         type:'popover',
                         icon:'',
                         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                    },
+                    {
+                        label: 'issues',
+                        icon:'',
+                        href: 'https://github.com/k186/cabinXDesign/issues',
                     }
                 ],
             }

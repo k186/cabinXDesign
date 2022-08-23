@@ -1,0 +1,14 @@
+[
+  {
+    "label": "用法",
+    "code": "use"
+  },
+  {
+    "label": "样式",
+    "code": "style"
+  },
+  {
+    "label": "可访问性",
+    "code": "props"
+  }
+]

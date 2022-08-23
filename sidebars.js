@@ -22,8 +22,8 @@ const sidebars = {
             type: 'category',
             label: '组件属性',
             collapsed: false,
-            items: ['components/index'],
-        }
+            items: ['components/index','components/button/use'],
+        },
     ],
     cli: [
         {
