@@ -62,7 +62,8 @@ const config = {
           '@components': path.resolve(__dirname, './src/components'),
         },
       },
-    ],
+    ]
+      /*@docusaurus/plugin-ideal-image 不要用这个插件 安装依赖有问题*/
   ]
 };
 

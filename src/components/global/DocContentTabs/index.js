@@ -7,7 +7,6 @@ import Link from '@docusaurus/Link';
 
 
 export default function DocContentTabs(props) {
-    console.log(props.tabCode)
     return (
         <div className={clsx(styles.tabs)}>
             <img className={clsx(styles.tabsImg)} src={img} alt=""/>

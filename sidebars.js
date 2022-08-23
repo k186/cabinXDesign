@@ -20,10 +20,17 @@ const sidebars = {
     docs: [
         {
             type: 'category',
+            label: 'demo',
+            collapsible: false,
+            collapsed: false,
+            items: ['components/index'],//todo sidebar doc切换情况下保持存在
+        },
+        {
+            type: 'category',
             label: '组件属性',
             collapsible: false,
             collapsed: false,
-            items: ['components/index','components/button/use'],//todo sidebar doc切换情况下保持存在
+            items: ['components/button/use'],//todo sidebar doc切换情况下保持存在
         },
     ],
     cli: [
