@@ -4,6 +4,8 @@
  * work well for content-centric websites.
  */
 
+@use './components/_table.scss';
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #0f62fe;
