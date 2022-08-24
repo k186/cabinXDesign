@@ -15,9 +15,9 @@ module.exports = {
         items: [
             {
                 type: 'doc',
-                docId: 'components/index',
+                docId: 'components/intro/index',
                 position: 'left',
-                label: 'doc',
+                label: '组件',
             },
             {
                 type: 'doc',
