@@ -21,24 +21,18 @@ const sidebars = {
         {
             type: 'category',
             label: 'demo',
-            collapsible: false,
-            collapsed: false,
             items: ['components/index'],//todo sidebar doc切换情况下保持存在
         },
         {
             type: 'category',
-            label: '组件属性',
-            collapsible: false,
-            collapsed: false,
-            items: ['components/button/use'],//todo sidebar doc切换情况下保持存在
+            label: '组件',
+            items: ['components/button/use','components/button/style','components/button/props'],//todo sidebar doc切换情况下保持存在
         },
     ],
     cli: [
         {
             type: 'category',
             label: 'Getting Started',
-            collapsible: false,
-            collapsed: false,
             items: ['cli/index'],
         },
 
