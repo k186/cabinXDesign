@@ -15,21 +15,45 @@ module.exports = {
         items: [
             {
                 type: 'doc',
+                docId: 'design/index',
+                position: 'right',
+                label: '设计',
+            },
+            {
+                type: 'doc',
+                docId: 'developing/index',
+                position: 'right',
+                label: '研发',
+            },
+            {
+                type: 'doc',
                 docId: 'components/intro/index',
-                position: 'left',
+                position: 'right',
+                label: '组件',
+            },
+            {
+                type: 'doc',
+                docId: 'resource/index',
+                position: 'right',
                 label: '组件',
             },
             {
                 type: 'doc',
                 docId: 'cli/index',
-                position: 'left',
+                position: 'right',
                 label: 'CLI',
             },
             {
-                href: 'https://github.com/k186/cabinXDesign',
-                label: 'GitHub',
+                type: 'doc',
+                docId: 'demo/index',
                 position: 'right',
+                label: '最佳实践',
             },
+            // {
+            //     href: 'https://github.com/k186/cabinXDesign',
+            //     label: 'GitHub',
+            //     position: 'right',
+            // },
         ],
     },
     footer: {
