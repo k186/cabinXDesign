@@ -7,6 +7,7 @@
 
 module.exports = {
     navbar: {
+        hideOnScroll: true,
         title: 'CabinX',
         logo: {
             alt: 'CabinX logo',
@@ -64,7 +65,7 @@ module.exports = {
                 items: [
                     {
                         label: '组件',
-                        to: '/docs/components/index',
+                        to: '/docs/components/intro/index',
                     },
                     {
                         label: 'cli',

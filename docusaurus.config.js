@@ -21,8 +21,8 @@ const config = {
   
   // 国际化配置
   i18n: {
-    defaultLocale: 'zh-CN',
-    locales: ['zh-CN'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -35,6 +35,10 @@ const config = {
           breadcrumbs: false,
           sidebarCollapsed: false,
           sidebarCollapsible: true,
+          admonitions: {
+            tag: ':::',
+            keywords: ['note', 'tip', 'info', 'caution', 'danger','cabinx'],
+          },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
          // editUrl:'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
