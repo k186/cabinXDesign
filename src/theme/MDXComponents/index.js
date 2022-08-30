@@ -9,6 +9,9 @@ import MDXUl from '@theme/MDXComponents/Ul';
 import MDXImg from '@theme/MDXComponents/Img';
 import Admonition from '@theme/Admonition';
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 import DocsCard from "../../components/global/DocsCard";
 import DocsCards from "../../components/global/DocsCards";
 const MDXComponents = {
@@ -29,6 +32,8 @@ const MDXComponents = {
   /* custom code*/
   DocsCard,
   DocsCards,
+  Tabs,
+  TabItem,
   table: ({ children, ...props }) => {
     const tableHeadings = children[0].props.children.props.children;
 
