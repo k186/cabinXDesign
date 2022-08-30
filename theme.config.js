@@ -36,7 +36,7 @@ module.exports = {
                 type: 'doc',
                 docId: 'resource/index',
                 position: 'right',
-                label: '组件',
+                label: '资源',
             },
             {
                 type: 'doc',
