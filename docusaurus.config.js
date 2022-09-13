@@ -9,7 +9,7 @@ const config = {
   title: 'CabinX',
   tagline: 'write once run everywhere',
   url: 'https://cabinx.dmall.com',
-  baseUrl: '/',
+  baseUrl: '/kayak-project/cabinxdesign/build/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
