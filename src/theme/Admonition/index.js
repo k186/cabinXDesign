@@ -167,15 +167,14 @@ function processAdmonitionProps(props) {
 export default function Admonition(props) {
   const {children, type, title, icon: iconProp} = processAdmonitionProps(props);
   if (type === 'cabinx') {
-    console.log('------')
-    console.log(title)
-    console.log('------')
     const [height, width] = title ? title.toLowerCase()?.split('x') : [200,'auto']
+    debugger
+    const url=`https://testcabinx.dmall.com/cross.html${children?.props?.children[ 0 ]?.props?.children}`
     return (
       <DemoIframe
         height={height}
         width={width}
-        url={children.props?.children[ 0 ]?.props?.children?.props.children}/>
+        url={url}/>
     )
   }
   
