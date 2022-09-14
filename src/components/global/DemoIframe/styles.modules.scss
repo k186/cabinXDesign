@@ -1,0 +1,15 @@
+.docsDemoDevice {
+  position: relative;
+
+  .docsDemoIframe {
+    overflow: hidden;
+  }
+
+  .docsDemoGo {
+    position: absolute;
+    height: 30px;
+    background: rgba(#0f62fe, 0.5);
+    bottom: 0;
+    cursor: pointer;
+  }
+}
