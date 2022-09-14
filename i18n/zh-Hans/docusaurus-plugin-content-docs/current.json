@@ -1,0 +1,182 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Component": {
+    "message": "组件",
+    "description": "The label for category Component in sidebar docs"
+  },
+  "sidebar.docs.category.From": {
+    "message": "表单",
+    "description": "The label for category From in sidebar docs"
+  },
+  "sidebar.docs.category.Components": {
+    "message": "Components",
+    "description": "The label for category Components in sidebar docs"
+  },
+  "sidebar.docs.category.basic": {
+    "message": "基础",
+    "description": "The label for category basic in sidebar docs"
+  },
+  "sidebar.docs.category.Table": {
+    "message": "表格",
+    "description": "The label for category Table in sidebar docs"
+  },
+  "sidebar.docs.category.Feedback": {
+    "message": "反馈",
+    "description": "The label for category Feedback in sidebar docs"
+  },
+  "sidebar.docs.category.Chart": {
+    "message": "图标",
+    "description": "The label for category Chart in sidebar docs"
+  },
+  "sidebar.docs.doc.About ": {
+    "message": "About ",
+    "description": "The label for the doc item About  in sidebar docs, linking to the doc components/index/index"
+  },
+  "sidebar.docs.doc.About": {
+    "message": "关于表单",
+    "description": "The label for the doc item About in sidebar docs, linking to the doc components/form/props"
+  },
+  "sidebar.docs.doc.Link": {
+    "message": "Link",
+    "description": "The label for the doc item Link in sidebar docs, linking to the doc components/link/props"
+  },
+  "sidebar.docs.doc.ImageView": {
+    "message": "ImageView",
+    "description": "The label for the doc item ImageView in sidebar docs, linking to the doc components/imageView/props"
+  },
+  "sidebar.docs.doc.Text": {
+    "message": "Text",
+    "description": "The label for the doc item Text in sidebar docs, linking to the doc components/text/props"
+  },
+  "sidebar.docs.doc.Input": {
+    "message": "Input",
+    "description": "The label for the doc item Input in sidebar docs, linking to the doc components/input/props"
+  },
+  "sidebar.docs.doc.Textarea": {
+    "message": "Textarea",
+    "description": "The label for the doc item Textarea in sidebar docs, linking to the doc components/textarea/props"
+  },
+  "sidebar.docs.doc.Upload": {
+    "message": "Upload",
+    "description": "The label for the doc item Upload in sidebar docs, linking to the doc components/upload/props"
+  },
+  "sidebar.docs.doc.Group": {
+    "message": "Group",
+    "description": "The label for the doc item Group in sidebar docs, linking to the doc components/group/props"
+  },
+  "sidebar.docs.doc.AutoComplete": {
+    "message": "AutoComplete",
+    "description": "The label for the doc item AutoComplete in sidebar docs, linking to the doc components/auto-complete/props"
+  },
+  "sidebar.docs.doc.Checkbox": {
+    "message": "Checkbox",
+    "description": "The label for the doc item Checkbox in sidebar docs, linking to the doc components/checkbox/props"
+  },
+  "sidebar.docs.doc.Radio": {
+    "message": "Radio",
+    "description": "The label for the doc item Radio in sidebar docs, linking to the doc components/radio/props"
+  },
+  "sidebar.docs.doc.Switch": {
+    "message": "Switch",
+    "description": "The label for the doc item Switch in sidebar docs, linking to the doc components/switch/props"
+  },
+  "sidebar.docs.doc.DatePicker": {
+    "message": "DatePicker",
+    "description": "The label for the doc item DatePicker in sidebar docs, linking to the doc components/datepicker/props"
+  },
+  "sidebar.docs.doc.TimePicker": {
+    "message": "TimePicker",
+    "description": "The label for the doc item TimePicker in sidebar docs, linking to the doc components/timepicker/props"
+  },
+  "sidebar.docs.doc.Cascader": {
+    "message": "Cascader",
+    "description": "The label for the doc item Cascader in sidebar docs, linking to the doc components/cascader/props"
+  },
+  "sidebar.docs.doc.Select": {
+    "message": "Select",
+    "description": "The label for the doc item Select in sidebar docs, linking to the doc components/select/props"
+  },
+  "sidebar.docs.doc.DailyPicker": {
+    "message": "DailyPicker",
+    "description": "The label for the doc item DailyPicker in sidebar docs, linking to the doc components/daily-picker/props"
+  },
+  "sidebar.docs.doc.Icon": {
+    "message": "Icon",
+    "description": "The label for the doc item Icon in sidebar docs, linking to the doc components/icon/props"
+  },
+  "sidebar.docs.doc.Tag": {
+    "message": "Tag",
+    "description": "The label for the doc item Tag in sidebar docs, linking to the doc components/tag/props"
+  },
+  "sidebar.docs.doc.Button": {
+    "message": "Button",
+    "description": "The label for the doc item Button in sidebar docs, linking to the doc components/button/props"
+  },
+  "sidebar.docs.doc.Image": {
+    "message": "Image",
+    "description": "The label for the doc item Image in sidebar docs, linking to the doc components/image/props"
+  },
+  "sidebar.docs.doc.Dropdown": {
+    "message": "Dropdown",
+    "description": "The label for the doc item Dropdown in sidebar docs, linking to the doc components/dropdown/props"
+  },
+  "sidebar.docs.doc.Popover": {
+    "message": "Popover",
+    "description": "The label for the doc item Popover in sidebar docs, linking to the doc components/popover/props"
+  },
+  "sidebar.docs.doc.Card": {
+    "message": "Card",
+    "description": "The label for the doc item Card in sidebar docs, linking to the doc components/card/props"
+  },
+  "sidebar.docs.doc.Transfer": {
+    "message": "Transfer",
+    "description": "The label for the doc item Transfer in sidebar docs, linking to the doc components/transfer/props"
+  },
+  "sidebar.docs.doc.Tree": {
+    "message": "Tree",
+    "description": "The label for the doc item Tree in sidebar docs, linking to the doc components/tree/props"
+  },
+  "sidebar.docs.doc.Steps": {
+    "message": "Steps",
+    "description": "The label for the doc item Steps in sidebar docs, linking to the doc components/steps/props"
+  },
+  "sidebar.docs.doc.Data": {
+    "message": "数据表格",
+    "description": "The label for the doc item Data in sidebar docs, linking to the doc components/table/data/props"
+  },
+  "sidebar.docs.doc.Editor": {
+    "message": "编辑表格",
+    "description": "The label for the doc item Editor in sidebar docs, linking to the doc components/table/editor/props"
+  },
+  "sidebar.docs.doc.Super": {
+    "message": "超级表格",
+    "description": "The label for the doc item Super in sidebar docs, linking to the doc components/table/super/props"
+  },
+  "sidebar.docs.doc.Banner": {
+    "message": "Banner",
+    "description": "The label for the doc item Banner in sidebar docs, linking to the doc components/tips/props"
+  },
+  "sidebar.docs.doc.Tips": {
+    "message": "Tips",
+    "description": "The label for the doc item Tips in sidebar docs, linking to the doc components/tips/use"
+  },
+  "sidebar.docs.doc.Toast": {
+    "message": "Toast",
+    "description": "The label for the doc item Toast in sidebar docs, linking to the doc components/toast/props"
+  },
+  "sidebar.docs.doc.Scene": {
+    "message": "Scene",
+    "description": "The label for the doc item Scene in sidebar docs, linking to the doc components/chart/scene/props"
+  },
+  "sidebar.docs.doc.Type": {
+    "message": "Type",
+    "description": "The label for the doc item Type in sidebar docs, linking to the doc components/chart/type/props"
+  },
+  "sidebar.cli.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category Getting Started in sidebar cli"
+  }
+}

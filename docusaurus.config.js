@@ -9,7 +9,8 @@ const config = {
   title: 'CabinX',
   tagline: 'write once run everywhere',
   url: 'https://cabinx.dmall.com',
-  baseUrl: '/kayak-project/cabinxdesign/build/',
+  //baseUrl: '/kayak-project/cabinxdesign/build/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -21,8 +22,8 @@ const config = {
   
   // 国际化配置
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -33,8 +34,9 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           breadcrumbs: false,
-          sidebarCollapsed: false,
+          sidebarCollapsed: true,
           sidebarCollapsible: true,
+
           admonitions: {
             tag: ':::',
             keywords: ['note', 'tip', 'info', 'caution', 'danger','cabinx'],

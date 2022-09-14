@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "CabinX",
+    "description": "The title in the navbar"
+  },
+  "item.label.Design": {
+    "message": "设计",
+    "description": "Navbar item with label Design"
+  },
+  "item.label.Developing": {
+    "message": "研发",
+    "description": "Navbar item with label Developing"
+  },
+  "item.label.Components": {
+    "message": "组件",
+    "description": "Navbar item with label Components"
+  },
+  "item.label.Resource": {
+    "message": "资源",
+    "description": "Navbar item with label Resource"
+  },
+  "item.label.CLI": {
+    "message": "CLI",
+    "description": "Navbar item with label CLI"
+  },
+  "item.label.Demo": {
+    "message": "最佳实践",
+    "description": "Navbar item with label Demo"
+  }
+}

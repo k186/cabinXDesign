@@ -15,6 +15,9 @@ function DocSidebarItems({items, ...props}) {
                            return null
                         }
                     }
+                    if(idArray[0]==='intro'){
+                        return  null
+                    }
                 }
                 return (
                     <DocSidebarItem key={index} item={item} index={index} {...props} />

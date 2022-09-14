@@ -18,25 +18,25 @@ module.exports = {
                 type: 'doc',
                 docId: 'design/index',
                 position: 'right',
-                label: '设计',
+                label: 'Design',
             },
             {
                 type: 'doc',
                 docId: 'developing/index',
                 position: 'right',
-                label: '研发',
+                label: 'Developing',
             },
             {
                 type: 'doc',
-                docId: 'components/intro/index',
+                docId: 'components/index/index',
                 position: 'right',
-                label: '组件',
+                label: 'Components',
             },
             {
                 type: 'doc',
                 docId: 'resource/index',
                 position: 'right',
-                label: '资源',
+                label: 'Resource',
             },
             {
                 type: 'doc',
@@ -48,7 +48,7 @@ module.exports = {
                 type: 'doc',
                 docId: 'demo/index',
                 position: 'right',
-                label: '最佳实践',
+                label: 'Demo',
             },
             // {
             //     href: 'https://github.com/k186/cabinXDesign',
@@ -64,7 +64,7 @@ module.exports = {
                 title: 'Docs',
                 items: [
                     {
-                        label: '组件',
+                        label: 'component',
                         to: '/docs/components/intro/index',
                     },
                     {
@@ -77,7 +77,7 @@ module.exports = {
                 title: 'Community',
                 items: [
                     {
-                        label: '飞书',
+                        label: 'feishu',
                         type:'popover',
                         icon:'',
                         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
