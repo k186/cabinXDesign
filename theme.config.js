@@ -39,16 +39,15 @@ module.exports = {
                 label: 'Resource',
             },
             {
-                type: 'doc',
-                docId: 'cli/index',
+
                 position: 'right',
                 label: 'CLI',
+                href:'https://testcabinx.dmall.com/cliv2.html#index/cabinxcli_doc/v2/start/hello'
             },
             {
-                type: 'doc',
-                docId: 'demo/index',
                 position: 'right',
-                label: 'Demo',
+                label:'Demo',
+                href: 'https://testcabinx.dmall.com/cross.html#index/cabinxdoc/cabinx/demo/form/baseform',
             },
             // {
             //     href: 'https://github.com/k186/cabinXDesign',
