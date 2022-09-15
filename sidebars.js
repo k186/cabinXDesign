@@ -13,12 +13,10 @@ const sideBarDoc = [
     {
         type: 'category',
         label: 'Design',
+        link: {
+            type: 'generated-index',
+        },
         items:[
-            {
-                type: 'doc',
-                id: 'design/Introduction',
-                label: 'Introduction '
-            },
             {
                 type: 'category',
                 label: 'Getting Started',
@@ -37,12 +35,10 @@ const sideBarDoc = [
     {
         type: 'category',
         label: 'Developing',
+        link: {
+            type: 'generated-index',
+        },
         items:[
-            {
-                type: 'doc',
-                id: 'developing/Introduction',
-                label: 'Introduction '
-            },
             {
                 type: 'category',
                 label: 'Getting Started',
@@ -68,13 +64,11 @@ const sideBarDoc = [
     },
     {
         type: 'category',
-        label: 'Component',
+        label: 'components',
+        link: {
+            type: 'generated-index',
+        },
         items: [
-            {
-                type: 'doc',
-                id: 'components/index/index',
-                label: 'AboutComponent'
-            },
             /*from*/
             {
                 type: 'category',
@@ -99,6 +93,9 @@ const sideBarDoc = [
                     {
                         type: 'category',
                         label: 'Components',
+                        link: {
+                            type: 'generated-index',
+                        },
                         items: [
                             {
                                 type: 'doc',
@@ -363,6 +360,9 @@ const sideBarDoc = [
             {
                 type: 'category',
                 label: 'basic',
+                link: {
+                    type: 'generated-index',
+                },
                 items: [
                     {
                         type: 'doc',
@@ -527,6 +527,9 @@ const sideBarDoc = [
             {
                 type: 'category',
                 label: 'Table',
+                link: {
+                    type: 'generated-index',
+                },
                 items: [
                     {
                         type: 'doc',
@@ -577,6 +580,9 @@ const sideBarDoc = [
             {
                 type: 'category',
                 label: 'Feedback',
+                link: {
+                    type: 'generated-index',
+                },
                 items: [
                     {
                         type: 'doc',
@@ -689,6 +695,9 @@ const sideBarDoc = [
             {
                 type: 'category',
                 label: 'Chart',
+                link: {
+                    type: 'generated-index',
+                },
                 items: [
                     {
                         type: 'doc',

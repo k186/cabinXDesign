@@ -3,17 +3,9 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.docs.category.Component": {
-    "message": "组件",
-    "description": "The label for category Component in sidebar docs"
-  },
   "sidebar.docs.category.From": {
     "message": "表单",
     "description": "The label for category From in sidebar docs"
-  },
-  "sidebar.docs.category.Components": {
-    "message": "表单组件",
-    "description": "The label for category Components in sidebar docs"
   },
   "sidebar.docs.category.basic": {
     "message": "基础组件",
@@ -31,12 +23,8 @@
     "message": "图表",
     "description": "The label for category Chart in sidebar docs"
   },
-  "sidebar.docs.doc.AboutComponent": {
-    "message": "关于组件 ",
-    "description": "The label for the doc item AboutComponent in sidebar docs, linking to the doc components/index/index"
-  },
   "sidebar.docs.doc.About": {
-    "message": "关于表单",
+    "message": "概要",
     "description": "The label for the doc item About in sidebar docs, linking to the doc components/form/props"
   },
   "sidebar.docs.doc.Link": {
@@ -195,10 +183,6 @@
     "message": "快速上手",
     "description": "The label for category Getting Started in sidebar docs"
   },
-  "sidebar.docs.doc.Introduction ": {
-    "message": "简介 ",
-    "description": "The label for the doc item Introduction  in sidebar docs, linking to the doc developing/Introduction"
-  },
   "sidebar.docs.doc.Token ": {
     "message": "设计令牌 ",
     "description": "The label for the doc item Token  in sidebar docs, linking to the doc design/Token"
@@ -274,5 +258,13 @@
   "sidebar.docs.doc.Navigation": {
     "message": "导航",
     "description": "The label for the doc item Navigation in sidebar docs, linking to the doc mode/nav"
+  },
+  "sidebar.docs.category.components": {
+    "message": "组件",
+    "description": "The label for category components in sidebar docs"
+  },
+  "sidebar.docs.category.Components": {
+    "message": "表单组件",
+    "description": "The label for category Components in sidebar docs"
   }
 }

@@ -9,11 +9,11 @@
   },
   "link.item.label.component": {
     "message": "组件",
-    "description": "The label of footer link with label=component linking to /docs/components/intro/index"
+    "description": "The label of footer link with label=component linking to /docs/components/index/index"
   },
   "link.item.label.cli": {
     "message": "cli",
-    "description": "The label of footer link with label=cli linking to /docs/cli/index"
+    "description": "The label of footer link with label=cli linking to https://testcabinx.dmall.com/cliv2.html#index/cabinxcli_doc/v2/start/hello"
   },
   "link.item.label.feishu": {
     "message": "飞书",
