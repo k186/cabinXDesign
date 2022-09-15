@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcabinx_design=self.webpackChunkcabinx_design||[]).push([[2090],{8894:(e,s,n)=>{n.r(s)}}]);

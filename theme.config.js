@@ -64,11 +64,11 @@ module.exports = {
                 items: [
                     {
                         label: 'component',
-                        to: '/docs/components/intro/index',
+                        to: '/docs/components/index/index',
                     },
                     {
                         label: 'cli',
-                        to: '/docs/cli/index',
+                        href: 'https://testcabinx.dmall.com/cliv2.html#index/cabinxcli_doc/v2/start/hello',
                     },
                 ],
             },
