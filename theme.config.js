@@ -84,7 +84,7 @@ module.exports = {
                     {
                         label: 'issues',
                         icon:'',
-                        href: 'https://github.com/k186/cabinXDesign/issues',
+                        href: 'https://duodian.feishu.cn/share/base/shrcnfYMkmIqyZCyRqm2ytIpg2e',
                     }
                 ],
             }
