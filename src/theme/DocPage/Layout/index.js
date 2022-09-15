@@ -8,9 +8,6 @@ import styles from './styles.module.css';
 export default function DocPageLayout({children}) {
   const sidebar = useDocsSidebar();
   const [hiddenSidebarContainer, setHiddenSidebarContainer] = useState(false);
-  if(sidebar){
-      console.log('render siderbar')
-  }
   return (
     <Layout wrapperClassName={styles.docsWrapper}>
       <BackToTopButton />

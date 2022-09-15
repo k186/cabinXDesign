@@ -12,11 +12,11 @@
     "description": "The label for category From in sidebar docs"
   },
   "sidebar.docs.category.Components": {
-    "message": "Components",
+    "message": "表单组件",
     "description": "The label for category Components in sidebar docs"
   },
   "sidebar.docs.category.basic": {
-    "message": "基础",
+    "message": "基础组件",
     "description": "The label for category basic in sidebar docs"
   },
   "sidebar.docs.category.Table": {
@@ -32,7 +32,7 @@
     "description": "The label for category Chart in sidebar docs"
   },
   "sidebar.docs.doc.About ": {
-    "message": "About ",
+    "message": "关于组件 ",
     "description": "The label for the doc item About  in sidebar docs, linking to the doc components/index/index"
   },
   "sidebar.docs.doc.About": {

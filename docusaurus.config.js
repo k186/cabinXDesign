@@ -19,7 +19,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'cabinX', // Usually your GitHub org/user name.
   projectName: 'cabinXDesign', // Usually your repo name.
-  
+
   // 国际化配置
   i18n: {
     defaultLocale: 'zh-Hans',
@@ -45,6 +45,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
          // editUrl:'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
+        blog:false,
         theme: {
           customCss: require.resolve('./src/css/custom.scss'),
         },

@@ -18,6 +18,11 @@ const sideBarDoc = [
         type: 'category',
         label: 'Component',
         items: [
+            {
+                type: 'doc',
+                id: 'components/index/index',
+                label: 'About '
+            },
             /*from*/
             {
                 type: 'category',

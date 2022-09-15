@@ -168,7 +168,6 @@ export default function Admonition(props) {
   const {children, type, title, icon: iconProp} = processAdmonitionProps(props);
   if (type === 'cabinx') {
     const [height, width] = title ? title.toLowerCase()?.split('x') : [200,'auto']
-    debugger
     const url=`https://teststatic.dmall.com/kayak-project/entry_html/html/cabin_wiki/cross.html${children?.props?.children[ 0 ]?.props?.children}`
     return (
       <DemoIframe
