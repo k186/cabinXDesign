@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcabinx_design=self.webpackChunkcabinx_design||[]).push([[7516],{4041:e=>{e.exports=JSON.parse('{"title":"\u7ec4\u4ef6","slug":"/category/components","permalink":"/docs/category/components","navigation":{"previous":{"title":"\u9996\u9875","permalink":"/docs/intro/"},"next":{"title":"from","permalink":"/docs/components/form/use"}}}')}}]);
