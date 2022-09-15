@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcabinx_design=self.webpackChunkcabinx_design||[]).push([[4329],{1542:e=>{e.exports=JSON.parse('{"title":"Table","slug":"/category/table","permalink":"/docs/category/table","navigation":{"previous":{"title":"steps","permalink":"/docs/components/steps/props"},"next":{"title":"table data","permalink":"/docs/components/table/data/use"}}}')}}]);
