@@ -10,16 +10,16 @@ const config = {
   tagline: 'write once run everywhere',
   url: 'https://k186.github.io',
   //baseUrl: '/kayak-project/cabinxdesign/build/',
-  baseUrl: '/',
+  baseUrl: '/cabinXDesign/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'k186.github.io', // Usually your GitHub org/user name.
+  organizationName: 'k186', // Usually your GitHub org/user name.
   projectName: 'cabinXDesign', // Usually your repo name.
-  deploymentBranch:'main',
+  deploymentBranch:'gh-pages',
 
   // 国际化配置
   i18n: {

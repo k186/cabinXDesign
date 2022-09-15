@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcabinx_design=self.webpackChunkcabinx_design||[]).push([[6902],{839:e=>{e.exports=JSON.parse('{"title":"\u7814\u53d1","slug":"/category/developing","permalink":"/docs/category/developing","navigation":{"previous":{"title":"Token","permalink":"/docs/design/Token"},"next":{"title":"About","permalink":"/docs/developing/GettingStarted/About"}}}')}}]);

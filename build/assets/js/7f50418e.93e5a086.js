@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcabinx_design=self.webpackChunkcabinx_design||[]).push([[908],{4748:e=>{e.exports=JSON.parse('{"title":"\u56fe\u8868","slug":"/category/chart","permalink":"/docs/category/chart","navigation":{"previous":{"title":"toast","permalink":"/docs/components/toast/props"},"next":{"title":"chart","permalink":"/docs/components/chart/scene/use"}}}')}}]);
