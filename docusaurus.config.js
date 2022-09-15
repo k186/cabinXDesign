@@ -8,7 +8,7 @@ const themeConfig =require('./theme.config.js')
 const config = {
   title: 'CabinX',
   tagline: 'write once run everywhere',
-  url: 'https://cabinx.dmall.com',
+  url: 'https://k186.github.io',
   //baseUrl: '/kayak-project/cabinxdesign/build/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -17,8 +17,9 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'cabinX', // Usually your GitHub org/user name.
+  organizationName: 'k186.github.io', // Usually your GitHub org/user name.
   projectName: 'cabinXDesign', // Usually your repo name.
+  deploymentBranch:'main',
 
   // 国际化配置
   i18n: {

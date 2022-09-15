@@ -9,7 +9,7 @@
   },
   "link.item.label.component": {
     "message": "组件",
-    "description": "The label of footer link with label=component linking to /docs/components/index/index"
+    "description": "The label of footer link with label=component linking to /category/components"
   },
   "link.item.label.cli": {
     "message": "cli",

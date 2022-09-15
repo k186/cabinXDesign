@@ -62,10 +62,7 @@ module.exports = {
             {
                 title: 'Docs',
                 items: [
-                    {
-                        label: 'component',
-                        to: '/docs/components/index/index',
-                    },
+
                     {
                         label: 'cli',
                         href: 'https://testcabinx.dmall.com/cliv2.html#index/cabinxcli_doc/v2/start/hello',

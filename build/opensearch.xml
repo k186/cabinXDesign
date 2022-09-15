@@ -4,8 +4,8 @@
   <ShortName>CabinX</ShortName>
   <Description>Search CabinX</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://cabinx.dmall.com/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://cabinx.dmall.com/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://cabinx.dmall.com/opensearch.xml" />
-  <moz:SearchForm>https://cabinx.dmall.com/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://k186.github.io/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://k186.github.io/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://k186.github.io/opensearch.xml" />
+  <moz:SearchForm>https://k186.github.io/</moz:SearchForm>
 </OpenSearchDescription>
