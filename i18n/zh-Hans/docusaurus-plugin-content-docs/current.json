@@ -20,7 +20,7 @@
     "description": "The label for category basic in sidebar docs"
   },
   "sidebar.docs.category.Table": {
-    "message": "表格",
+    "message": "Table",
     "description": "The label for category Table in sidebar docs"
   },
   "sidebar.docs.category.Feedback": {
@@ -28,12 +28,12 @@
     "description": "The label for category Feedback in sidebar docs"
   },
   "sidebar.docs.category.Chart": {
-    "message": "图标",
+    "message": "图表",
     "description": "The label for category Chart in sidebar docs"
   },
-  "sidebar.docs.doc.About ": {
+  "sidebar.docs.doc.AboutComponent": {
     "message": "关于组件 ",
-    "description": "The label for the doc item About  in sidebar docs, linking to the doc components/index/index"
+    "description": "The label for the doc item AboutComponent in sidebar docs, linking to the doc components/index/index"
   },
   "sidebar.docs.doc.About": {
     "message": "关于表单",
@@ -168,15 +168,111 @@
     "description": "The label for the doc item Toast in sidebar docs, linking to the doc components/toast/props"
   },
   "sidebar.docs.doc.Scene": {
-    "message": "Scene",
+    "message": "场景",
     "description": "The label for the doc item Scene in sidebar docs, linking to the doc components/chart/scene/props"
   },
   "sidebar.docs.doc.Type": {
-    "message": "Type",
+    "message": "类型",
     "description": "The label for the doc item Type in sidebar docs, linking to the doc components/chart/type/props"
   },
-  "sidebar.cli.category.Getting Started": {
-    "message": "Getting Started",
-    "description": "The label for category Getting Started in sidebar cli"
+  "sidebar.docs.doc.Notice": {
+    "message": "通知框",
+    "description": "The label for the doc item Notice in sidebar docs, linking to the doc components/notice/props"
+  },
+  "sidebar.docs.doc.Alert": {
+    "message": "对话框",
+    "description": "The label for the doc item Alert in sidebar docs, linking to the doc components/alert/props"
+  },
+  "sidebar.docs.doc.Confirm": {
+    "message": "Confirm",
+    "description": "The label for the doc item Confirm in sidebar docs, linking to the doc components/confirm/props"
+  },
+  "sidebar.docs.doc.Message": {
+    "message": "气泡框",
+    "description": "The label for the doc item Message in sidebar docs, linking to the doc components/message/props"
+  },
+  "sidebar.docs.category.Getting Started": {
+    "message": "快速上手",
+    "description": "The label for category Getting Started in sidebar docs"
+  },
+  "sidebar.docs.doc.Introduction ": {
+    "message": "简介 ",
+    "description": "The label for the doc item Introduction  in sidebar docs, linking to the doc developing/Introduction"
+  },
+  "sidebar.docs.doc.Token ": {
+    "message": "设计令牌 ",
+    "description": "The label for the doc item Token  in sidebar docs, linking to the doc design/Token"
+  },
+  "sidebar.docs.doc.CustomComponent ": {
+    "message": "自定义组件 ",
+    "description": "The label for the doc item CustomComponent  in sidebar docs, linking to the doc developing/CustomComponent"
+  },
+  "sidebar.docs.doc.i18n ": {
+    "message": "国际化 ",
+    "description": "The label for the doc item i18n  in sidebar docs, linking to the doc developing/i18n"
+  },
+  "sidebar.docs.category.Design": {
+    "message": "设计",
+    "description": "The label for category Design in sidebar docs"
+  },
+  "sidebar.docs.category.Developing": {
+    "message": "研发",
+    "description": "The label for category Developing in sidebar docs"
+  },
+  "sidebar.docs.category.Mode": {
+    "message": "模式",
+    "description": "The label for category Mode in sidebar docs"
+  },
+  "sidebar.docs.category.PageMode": {
+    "message": "页面模式",
+    "description": "The label for category PageMode in sidebar docs"
+  },
+  "sidebar.docs.category.OverviewPage": {
+    "message": "概览页面",
+    "description": "The label for category OverviewPage in sidebar docs"
+  },
+  "sidebar.docs.category.ListPage": {
+    "message": "列表页面",
+    "description": "The label for category ListPage in sidebar docs"
+  },
+  "sidebar.docs.category.ObjectPage": {
+    "message": "对象页面",
+    "description": "The label for category ObjectPage in sidebar docs"
+  },
+  "sidebar.docs.category.ObjectManage": {
+    "message": "对象管理",
+    "description": "The label for category ObjectManage in sidebar docs"
+  },
+  "sidebar.docs.category.NormalMode": {
+    "message": "一般模式",
+    "description": "The label for category NormalMode in sidebar docs"
+  },
+  "sidebar.docs.doc.Actions": {
+    "message": "常见动作",
+    "description": "The label for the doc item Actions in sidebar docs, linking to the doc mode/normalMode/actions"
+  },
+  "sidebar.docs.doc.ActionsZone": {
+    "message": "动作区",
+    "description": "The label for the doc item ActionsZone in sidebar docs, linking to the doc mode/normalMode/actionsZone"
+  },
+  "sidebar.docs.doc.EmptyStatus": {
+    "message": "空状态",
+    "description": "The label for the doc item EmptyStatus in sidebar docs, linking to the doc mode/normalMode/emptyStatus"
+  },
+  "sidebar.docs.doc.Loading": {
+    "message": "加载中",
+    "description": "The label for the doc item Loading in sidebar docs, linking to the doc mode/normalMode/loading"
+  },
+  "sidebar.docs.doc.GettingStarted": {
+    "message": "上手引导",
+    "description": "The label for the doc item GettingStarted in sidebar docs, linking to the doc mode/feedback/GettingStarted"
+  },
+  "sidebar.docs.doc.Suggest": {
+    "message": "应用内建议",
+    "description": "The label for the doc item Suggest in sidebar docs, linking to the doc mode/feedback/Suggest"
+  },
+  "sidebar.docs.doc.Navigation": {
+    "message": "导航",
+    "description": "The label for the doc item Navigation in sidebar docs, linking to the doc mode/nav"
   }
 }

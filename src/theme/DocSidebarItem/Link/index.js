@@ -15,7 +15,7 @@ export function isSamePath(path1 = undefined, path2 = undefined,) {
                 ? pathname
                 : `${pathname}/`
         )?.toLowerCase();
-   const subStr=(str)=> str.substring(0,str.lastIndexOf('/'))
+    const subStr = (str) => str.substring(0, str.lastIndexOf('/'))
     return normalize(subStr(path1)) === normalize(subStr(path2));
 }
 
@@ -41,8 +41,8 @@ export function isActiveSidebarItemCustom(item, activePath,) {
 /* rewrite active logic end*/
 export default function DocSidebarItemLink({item, onItemClick, activePath, level, index, ...props}) {
     const {href, label, className, type} = item;
-
-    const isActive = type === 'link' ? isActiveSidebarItemCustom(item, activePath) : isActiveSidebarItem(item, activePath);
+    const flag = activePath.split('/')[2]
+    const isActive = type === 'link' && flag === 'components' ? isActiveSidebarItemCustom(item, activePath) : isActiveSidebarItem(item, activePath);
     const isInternalLink = isInternalUrl(href);
     return (
         <li
