@@ -13,9 +13,7 @@ const sideBarDoc = [
     {
         type: 'category',
         label: 'Design',
-        link: {
-            type: 'generated-index',
-        },
+        link:{type: 'doc', id: 'design/introduction'},
         items:[
             {
                 type: 'category',
@@ -35,9 +33,7 @@ const sideBarDoc = [
     {
         type: 'category',
         label: 'Developing',
-        link: {
-            type: 'generated-index',
-        },
+        link:{type: 'doc', id: 'developing/introduction'},
         items:[
             {
                 type: 'category',
@@ -65,9 +61,7 @@ const sideBarDoc = [
     {
         type: 'category',
         label: 'components',
-        link: {
-            type: 'generated-index',
-        },
+        link:{type: 'doc', id: 'components/introduction'},
         items: [
             /*from*/
             {
@@ -360,9 +354,6 @@ const sideBarDoc = [
             {
                 type: 'category',
                 label: 'basic',
-                link: {
-                    type: 'generated-index',
-                },
                 items: [
                     {
                         type: 'doc',
@@ -527,9 +518,6 @@ const sideBarDoc = [
             {
                 type: 'category',
                 label: 'Table',
-                link: {
-                    type: 'generated-index',
-                },
                 items: [
                     {
                         type: 'doc',
@@ -580,9 +568,6 @@ const sideBarDoc = [
             {
                 type: 'category',
                 label: 'Feedback',
-                link: {
-                    type: 'generated-index',
-                },
                 items: [
                     {
                         type: 'doc',
@@ -695,9 +680,6 @@ const sideBarDoc = [
             {
                 type: 'category',
                 label: 'Chart',
-                link: {
-                    type: 'generated-index',
-                },
                 items: [
                     {
                         type: 'doc',

@@ -16,19 +16,19 @@ module.exports = {
         items: [
             {
                 type: 'doc',
-                docId: '/category/design',
+                docId: 'design/introduction',
                 position: 'right',
                 label: 'Design',
             },
             {
                 type: 'doc',
-                docId: '/category/developing',
+                docId: 'developing/introduction',
                 position: 'right',
                 label: 'Developing',
             },
             {
                 type: 'doc',
-                docId: '/category/components',
+                docId: 'components/introduction',
                 position: 'right',
                 label: 'Components',
             },
