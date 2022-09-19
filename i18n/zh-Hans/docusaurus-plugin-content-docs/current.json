@@ -266,5 +266,13 @@
   "sidebar.docs.category.Components": {
     "message": "表单组件",
     "description": "The label for category Components in sidebar docs"
+  },
+  "sidebar.docs.category.news": {
+    "message": "最新动态",
+    "description": "The label for category news in sidebar docs"
+  },
+  "sidebar.docs.category.contribute": {
+    "message": "贡献",
+    "description": "The label for category contribute in sidebar docs"
   }
 }
