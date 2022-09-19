@@ -36,6 +36,12 @@
 }
 
 /*custom*/
+@media (min-width: 1440px){
+  .container {
+    max-width: 100%;
+  }
+}
+
 .markdown {
   p {
     font-size: 14px;
@@ -44,6 +50,12 @@
 
   hr {
     background-color: #DDDFE6;
+  }
+  blockquote{
+    background-color:#EFF1F4 ;
+    padding: 20px;
+    border-left: 4px solid
+    var(--ifm-blockquote-border-color);
   }
 }
 
