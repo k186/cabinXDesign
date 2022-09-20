@@ -3,26 +3,6 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.docs.category.From": {
-    "message": "表单组件",
-    "description": "The label for category From in sidebar docs"
-  },
-  "sidebar.docs.category.basic": {
-    "message": "基础组件",
-    "description": "The label for category basic in sidebar docs"
-  },
-  "sidebar.docs.category.Table": {
-    "message": "Table",
-    "description": "The label for category Table in sidebar docs"
-  },
-  "sidebar.docs.category.Feedback": {
-    "message": "反馈",
-    "description": "The label for category Feedback in sidebar docs"
-  },
-  "sidebar.docs.category.Chart": {
-    "message": "图表",
-    "description": "The label for category Chart in sidebar docs"
-  },
   "sidebar.docs.doc.Link": {
     "message": "Link",
     "description": "The label for the doc item Link in sidebar docs, linking to the doc components/link/props"
@@ -266,5 +246,13 @@
   "sidebar.docs.category.contribute": {
     "message": "贡献",
     "description": "The label for category contribute in sidebar docs"
+  },
+  "sidebar.docs.doc.From": {
+    "message": "From",
+    "description": "The label for the doc item From in sidebar docs, linking to the doc components/form/props"
+  },
+  "sidebar.docs.category.Feedback": {
+    "message": "Feedback",
+    "description": "The label for category Feedback in sidebar docs"
   }
 }
