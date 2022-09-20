@@ -8,9 +8,9 @@ const themeConfig =require('./theme.config.js')
 const config = {
   title: 'CabinX',
   tagline: 'write once run everywhere',
-  url: 'cabinx.dmall.com',
-  //baseUrl: '/kayak-project/cabinxdesign/build/',
-  baseUrl: '/',
+  url: 'https://cabinx.dmall.com',
+  baseUrl: '/kayak-project/cabinxdesign/build/',
+  //baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
