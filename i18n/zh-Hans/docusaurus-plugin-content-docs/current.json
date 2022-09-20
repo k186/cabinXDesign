@@ -31,9 +31,9 @@
     "message": "Link",
     "description": "The label for the doc item Link in sidebar docs, linking to the doc components/link/props"
   },
-  "sidebar.docs.doc.ImageView": {
-    "message": "ImageView",
-    "description": "The label for the doc item ImageView in sidebar docs, linking to the doc components/imageView/props"
+  "sidebar.docs.doc.previewImg": {
+    "message": "previewImg",
+    "description": "The label for the doc item previewImg in sidebar docs, linking to the doc components/previewImg/props"
   },
   "sidebar.docs.doc.Text": {
     "message": "Text",

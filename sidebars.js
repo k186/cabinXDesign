@@ -149,18 +149,18 @@ const sideBarDoc = [
                             /*---------*/
                             {
                                 type: 'doc',
-                                label: 'ImageView',
-                                id: 'components/imageView/use',
+                                label: 'previewImg',
+                                id: 'components/previewImg/use',
                             },
                             {
                                 type: 'doc',
-                                label: 'ImageView',
-                                id: 'components/imageView/style',
+                                label: 'previewImg',
+                                id: 'components/previewImg/style',
                             },
                             {
                                 type: 'doc',
-                                label: 'ImageView',
-                                id: 'components/imageView/props'
+                                label: 'previewImg',
+                                id: 'components/previewImg/props'
                             },
                             /*-----*/
                             {
