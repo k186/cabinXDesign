@@ -36,7 +36,7 @@
 }
 
 /*custom*/
-@media (min-width: 1440px){
+@media (min-width: 1440px) {
   .container {
     max-width: 100%;
   }
@@ -51,11 +51,11 @@
   hr {
     background-color: #DDDFE6;
   }
-  blockquote{
-    background-color:#EFF1F4 ;
+
+  blockquote {
+    background-color: #EFF1F4;
     padding: 20px;
-    border-left: 4px solid
-    var(--ifm-blockquote-border-color);
+    border-left: 4px solid var(--ifm-blockquote-border-color);
   }
 }
 

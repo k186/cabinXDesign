@@ -1,26 +1,14 @@
 {
-  "link.title.Docs": {
-    "message": "Docs",
-    "description": "The title of the footer links column with title=Docs in the footer"
-  },
-  "link.title.Community": {
-    "message": "社区",
-    "description": "The title of the footer links column with title=Community in the footer"
-  },
-  "link.item.label.cli": {
-    "message": "cli",
-    "description": "The label of footer link with label=cli linking to https://testcabinx.dmall.com/cliv2.html#index/cabinxcli_doc/v2/start/hello"
-  },
-  "link.item.label.feishu": {
-    "message": "飞书",
-    "description": "The label of footer link with label=feishu linking to https://stackoverflow.com/questions/tagged/docusaurus"
-  },
-  "link.item.label.issues": {
-    "message": "issues",
-    "description": "The label of footer link with label=issues linking to https://duodian.feishu.cn/share/base/shrcnfYMkmIqyZCyRqm2ytIpg2e"
-  },
   "copyright": {
     "message": "Copyright © 2022 cabinX Group.",
     "description": "The footer copyright"
+  },
+  "link.item.label.Feishu": {
+    "message": "飞书",
+    "description": "The label of footer link with label=Feishu linking to https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=820gaac4-63bb-456d-9afe-75a382eb308b&qr_code=true"
+  },
+  "link.item.label.Gitlab": {
+    "message": "Gitlab",
+    "description": "The label of footer link with label=Gitlab linking to http://gitlab.dmall.com/kayak-project/cabinx"
   }
 }
