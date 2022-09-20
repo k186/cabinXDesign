@@ -7,7 +7,7 @@
 
 module.exports = {
     navbar: {
-        hideOnScroll: true,
+        hideOnScroll: false,
         title: 'CabinX',
         logo: {
             alt: 'CabinX logo',

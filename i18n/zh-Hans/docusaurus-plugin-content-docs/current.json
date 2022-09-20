@@ -4,7 +4,7 @@
     "description": "The label for version current"
   },
   "sidebar.docs.category.From": {
-    "message": "表单",
+    "message": "表单组件",
     "description": "The label for category From in sidebar docs"
   },
   "sidebar.docs.category.basic": {
@@ -22,10 +22,6 @@
   "sidebar.docs.category.Chart": {
     "message": "图表",
     "description": "The label for category Chart in sidebar docs"
-  },
-  "sidebar.docs.doc.About": {
-    "message": "概要",
-    "description": "The label for the doc item About in sidebar docs, linking to the doc components/form/props"
   },
   "sidebar.docs.doc.Link": {
     "message": "Link",
@@ -262,10 +258,6 @@
   "sidebar.docs.category.components": {
     "message": "组件",
     "description": "The label for category components in sidebar docs"
-  },
-  "sidebar.docs.category.Components": {
-    "message": "表单组件",
-    "description": "The label for category Components in sidebar docs"
   },
   "sidebar.docs.category.news": {
     "message": "最新动态",

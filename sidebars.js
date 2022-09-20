@@ -106,296 +106,275 @@ const sideBarDoc = [
             {
                 type: 'category',
                 label: 'From',
+                link:{type: 'doc', id: 'components/form/use'},
                 items: [
                     {
-                        type: 'doc',
-                        label: 'About',
-                        id: 'components/form/use',
+                        type:'html',
+                        value:'<div class="sidebar_group">查看</div>'
                     },
                     {
                         type: 'doc',
-                        label: 'About',
-                        id: 'components/form/style',
+                        label: 'Link',
+                        id: 'components/link/use',
                     },
                     {
                         type: 'doc',
-                        label: 'About',
-                        id: 'components/form/props',
-
+                        label: 'Link',
+                        id: 'components/link/style',
                     },
                     {
-                        type: 'category',
-                        label: 'Components',
-                        items: [
-                            {
-                                type:'html',
-                                value:'<div class="sidebar_group">查看</div>'
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Link',
-                                id: 'components/link/use',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Link',
-                                id: 'components/link/style',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Link',
-                                id: 'components/link/props',
-                            },
-                            /*---------*/
-                            {
-                                type: 'doc',
-                                label: 'previewImg',
-                                id: 'components/previewImg/use',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'previewImg',
-                                id: 'components/previewImg/style',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'previewImg',
-                                id: 'components/previewImg/props'
-                            },
-                            /*-----*/
-                            {
-                                type: 'doc',
-                                label: 'Text',
-                                id: 'components/text/use',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Text',
-                                id: 'components/text/style',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Text',
-                                id: 'components/text/props'
-                            },
-                            /*-----*/
-                            {
-                                type:'html',
-                                value:'<div class="sidebar_group">录入</div>'
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Input',
-                                id: 'components/input/use'
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Input',
-                                id: 'components/input/style',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Input',
-                                id: 'components/input/props'
-                            },
-                            /*-----*/
-                            {
-                                type: 'doc',
-                                label: 'Textarea',
-                                id: 'components/textarea/use',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Textarea',
-                                id: 'components/textarea/style',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Textarea',
-                                id: 'components/textarea/props'
-                            },
-                            /*-----*/
-                            {
-                                type: 'doc',
-                                label: 'Upload',
-                                id: 'components/upload/use',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Upload',
-                                id: 'components/upload/style',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Upload',
-                                id: 'components/upload/props'
-                            },
-                            /*-----*/
-                            {
-                                type: 'doc',
-                                label: 'Group',
-                                id: 'components/group/use',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Group',
-                                id: 'components/group/style',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Group',
-                                id: 'components/group/props'
-                            },
-                            /*-----*/
-                            {
-                                type: 'doc',
-                                label: 'AutoComplete',
-                                id: 'components/auto-complete/use',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'AutoComplete',
-                                id: 'components/auto-complete/style',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'AutoComplete',
-                                id: 'components/auto-complete/props'
-                            },
-                            /*-----*/
-                            {
-                                type:'html',
-                                value:'<div class="sidebar_group">选择</div>'
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Checkbox',
-                                id: 'components/checkbox/use',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Checkbox',
-                                id: 'components/checkbox/style',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Checkbox',
-                                id: 'components/checkbox/props'
-                            },
-                            /*-----*/
-                            {
-                                type: 'doc',
-                                label: 'Radio',
-                                id: 'components/radio/use',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Radio',
-                                id: 'components/radio/style',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Radio',
-                                id: 'components/radio/props'
-                            },
-                            /*-----*/
-                            {
-                                type: 'doc',
-                                label: 'Switch',
-                                id: 'components/switch/use',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Switch',
-                                id: 'components/switch/style',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Switch',
-                                id: 'components/switch/props'
-                            },
-                            /*-----*/
-                            {
-                                type: 'doc',
-                                label: 'DatePicker',
-                                id: 'components/datepicker/use',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'DatePicker',
-                                id: 'components/datepicker/style',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'DatePicker',
-                                id: 'components/datepicker/props'
-                            },
-                            /*-----*/
-                            {
-                                type: 'doc',
-                                label: 'TimePicker',
-                                id: 'components/timepicker/use',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'TimePicker',
-                                id: 'components/timepicker/style',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'TimePicker',
-                                id: 'components/timepicker/props'
-                            },
-                            /*-----*/
-                            {
-                                type: 'doc',
-                                label: 'Cascader',
-                                id: 'components/cascader/use',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Cascader',
-                                id: 'components/cascader/style',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Cascader',
-                                id: 'components/cascader/props'
-                            },
-                            /*-----*/
-                            {
-                                type: 'doc',
-                                label: 'Select',
-                                id: 'components/select/use',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Select',
-                                id: 'components/select/style',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'Select',
-                                id: 'components/select/props'
-                            },
-                            /*-----*/
-                            {
-                                type: 'doc',
-                                label: 'DailyPicker',
-                                id: 'components/daily-picker/use',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'DailyPicker',
-                                id: 'components/daily-picker/style',
-                            },
-                            {
-                                type: 'doc',
-                                label: 'DailyPicker',
-                                id: 'components/daily-picker/props'
-                            },
-                        ]
-                    }
+                        type: 'doc',
+                        label: 'Link',
+                        id: 'components/link/props',
+                    },
+                    /*---------*/
+                    {
+                        type: 'doc',
+                        label: 'previewImg',
+                        id: 'components/previewImg/use',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'previewImg',
+                        id: 'components/previewImg/style',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'previewImg',
+                        id: 'components/previewImg/props'
+                    },
+                    /*-----*/
+                    {
+                        type: 'doc',
+                        label: 'Text',
+                        id: 'components/text/use',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Text',
+                        id: 'components/text/style',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Text',
+                        id: 'components/text/props'
+                    },
+                    /*-----*/
+                    {
+                        type:'html',
+                        value:'<div class="sidebar_group">录入</div>'
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Input',
+                        id: 'components/input/use'
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Input',
+                        id: 'components/input/style',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Input',
+                        id: 'components/input/props'
+                    },
+                    /*-----*/
+                    {
+                        type: 'doc',
+                        label: 'Textarea',
+                        id: 'components/textarea/use',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Textarea',
+                        id: 'components/textarea/style',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Textarea',
+                        id: 'components/textarea/props'
+                    },
+                    /*-----*/
+                    {
+                        type: 'doc',
+                        label: 'Upload',
+                        id: 'components/upload/use',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Upload',
+                        id: 'components/upload/style',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Upload',
+                        id: 'components/upload/props'
+                    },
+                    /*-----*/
+                    {
+                        type: 'doc',
+                        label: 'Group',
+                        id: 'components/group/use',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Group',
+                        id: 'components/group/style',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Group',
+                        id: 'components/group/props'
+                    },
+                    /*-----*/
+                    {
+                        type: 'doc',
+                        label: 'AutoComplete',
+                        id: 'components/auto-complete/use',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'AutoComplete',
+                        id: 'components/auto-complete/style',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'AutoComplete',
+                        id: 'components/auto-complete/props'
+                    },
+                    /*-----*/
+                    {
+                        type:'html',
+                        value:'<div class="sidebar_group">选择</div>'
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Checkbox',
+                        id: 'components/checkbox/use',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Checkbox',
+                        id: 'components/checkbox/style',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Checkbox',
+                        id: 'components/checkbox/props'
+                    },
+                    /*-----*/
+                    {
+                        type: 'doc',
+                        label: 'Radio',
+                        id: 'components/radio/use',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Radio',
+                        id: 'components/radio/style',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Radio',
+                        id: 'components/radio/props'
+                    },
+                    /*-----*/
+                    {
+                        type: 'doc',
+                        label: 'Switch',
+                        id: 'components/switch/use',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Switch',
+                        id: 'components/switch/style',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Switch',
+                        id: 'components/switch/props'
+                    },
+                    /*-----*/
+                    {
+                        type: 'doc',
+                        label: 'DatePicker',
+                        id: 'components/datepicker/use',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'DatePicker',
+                        id: 'components/datepicker/style',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'DatePicker',
+                        id: 'components/datepicker/props'
+                    },
+                    /*-----*/
+                    {
+                        type: 'doc',
+                        label: 'TimePicker',
+                        id: 'components/timepicker/use',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'TimePicker',
+                        id: 'components/timepicker/style',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'TimePicker',
+                        id: 'components/timepicker/props'
+                    },
+                    /*-----*/
+                    {
+                        type: 'doc',
+                        label: 'Cascader',
+                        id: 'components/cascader/use',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Cascader',
+                        id: 'components/cascader/style',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Cascader',
+                        id: 'components/cascader/props'
+                    },
+                    /*-----*/
+                    {
+                        type: 'doc',
+                        label: 'Select',
+                        id: 'components/select/use',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Select',
+                        id: 'components/select/style',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'Select',
+                        id: 'components/select/props'
+                    },
+                    /*-----*/
+                    {
+                        type: 'doc',
+                        label: 'DailyPicker',
+                        id: 'components/daily-picker/use',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'DailyPicker',
+                        id: 'components/daily-picker/style',
+                    },
+                    {
+                        type: 'doc',
+                        label: 'DailyPicker',
+                        id: 'components/daily-picker/props'
+                    },
                 ]
             },
             /*basic*/
@@ -551,11 +530,13 @@ const sideBarDoc = [
                         type: 'doc',
                         label: 'Steps',
                         id: 'components/steps/use',
-                    }, {
+                    },
+                    {
                         type: 'doc',
                         label: 'Steps',
                         id: 'components/steps/style',
-                    }, {
+                    },
+                    {
                         type: 'doc',
                         label: 'Steps',
                         id: 'components/steps/props'
