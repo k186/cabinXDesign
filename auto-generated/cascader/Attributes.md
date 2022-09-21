@@ -9,4 +9,7 @@
 |multiple|多选|boolean|--|false|
 |disabled|禁用|boolean|--|false|
 |placeholder|占位符|string|--|--|
+|collapse-tags|是否合并多选 效果|Boolean|--|false|
 |loaded|请求处理完成后的回调|function|--|--|
+|lazyLoad|加载动态数据的方法|function(node, resolve)|--|--|
+|before-change|改变前钩子函数|function(newValue: any, oldValue: any): boolean/Promise|--||

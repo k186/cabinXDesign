@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcabinx_design=self.webpackChunkcabinx_design||[]).push([[1339],{3153:e=>{e.exports=JSON.parse('{"title":"\u8bbe\u8ba1","slug":"/category/design","permalink":"/cabinXDesign/docs/category/design","navigation":{"next":{"title":"Brand","permalink":"/cabinXDesign/docs/design/GettingStarted/Brand"}}}')}}]);
