@@ -39,7 +39,12 @@
 
 
 /*custom*/
-
+:focus-visible {
+  outline: -webkit-focus-ring-color auto 1px;
+  outline-color: var( --ifm-color-primary);
+  outline-style: auto;
+  outline-width: 1px;
+}
 @media (min-width: 1440px) {
   .container.padding-bottom--lg{
     >.row{
