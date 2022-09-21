@@ -24,6 +24,7 @@ const path = require('path');
   components.forEach((comp) => {
     const compTag = comp.name;
     const children = comp.children;
+    console.log(compTag)
     children.forEach((el) => {
       el.name = el.name.replaceAll('|', '&');
       if (el.type === 'fence') {
