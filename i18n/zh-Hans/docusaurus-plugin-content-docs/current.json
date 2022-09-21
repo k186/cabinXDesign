@@ -4,120 +4,140 @@
     "description": "The label for version current"
   },
   "sidebar.docs.doc.Link": {
-    "message": "Link",
+    "message": "Link 连接按钮",
     "description": "The label for the doc item Link in sidebar docs, linking to the doc components/link/props"
   },
   "sidebar.docs.doc.previewImg": {
-    "message": "previewImg",
+    "message": "previewImg 图片预览",
     "description": "The label for the doc item previewImg in sidebar docs, linking to the doc components/previewImg/props"
   },
   "sidebar.docs.doc.Text": {
-    "message": "Text",
+    "message": "Text 文本",
     "description": "The label for the doc item Text in sidebar docs, linking to the doc components/text/props"
   },
   "sidebar.docs.doc.Input": {
-    "message": "Input",
+    "message": "Input 输入框",
     "description": "The label for the doc item Input in sidebar docs, linking to the doc components/input/props"
   },
   "sidebar.docs.doc.Textarea": {
-    "message": "Textarea",
+    "message": "Textarea 文本域",
     "description": "The label for the doc item Textarea in sidebar docs, linking to the doc components/textarea/props"
   },
   "sidebar.docs.doc.Upload": {
-    "message": "Upload",
+    "message": "Upload 上传",
     "description": "The label for the doc item Upload in sidebar docs, linking to the doc components/upload/props"
   },
   "sidebar.docs.doc.Group": {
-    "message": "Group",
+    "message": "Group 编组",
     "description": "The label for the doc item Group in sidebar docs, linking to the doc components/group/props"
   },
   "sidebar.docs.doc.AutoComplete": {
-    "message": "AutoComplete",
+    "message": "AutoComplete 自动补全",
     "description": "The label for the doc item AutoComplete in sidebar docs, linking to the doc components/auto-complete/props"
   },
   "sidebar.docs.doc.Checkbox": {
-    "message": "Checkbox",
+    "message": "Checkbox 多选框",
     "description": "The label for the doc item Checkbox in sidebar docs, linking to the doc components/checkbox/props"
   },
   "sidebar.docs.doc.Radio": {
-    "message": "Radio",
+    "message": "Radio 单选框",
     "description": "The label for the doc item Radio in sidebar docs, linking to the doc components/radio/props"
   },
   "sidebar.docs.doc.Switch": {
-    "message": "Switch",
+    "message": "Switch 开关",
     "description": "The label for the doc item Switch in sidebar docs, linking to the doc components/switch/props"
   },
   "sidebar.docs.doc.DatePicker": {
-    "message": "DatePicker",
+    "message": "DatePicker 日期选择器",
     "description": "The label for the doc item DatePicker in sidebar docs, linking to the doc components/datepicker/props"
   },
   "sidebar.docs.doc.TimePicker": {
-    "message": "TimePicker",
+    "message": "TimePicker 时间选择器",
     "description": "The label for the doc item TimePicker in sidebar docs, linking to the doc components/timepicker/props"
   },
   "sidebar.docs.doc.Cascader": {
-    "message": "Cascader",
+    "message": "Cascader 级联选择器",
     "description": "The label for the doc item Cascader in sidebar docs, linking to the doc components/cascader/props"
   },
   "sidebar.docs.doc.Select": {
-    "message": "Select",
+    "message": "Select 下拉选择器",
     "description": "The label for the doc item Select in sidebar docs, linking to the doc components/select/props"
   },
   "sidebar.docs.doc.DailyPicker": {
-    "message": "DailyPicker",
+    "message": "DailyPicker 频率选择器",
     "description": "The label for the doc item DailyPicker in sidebar docs, linking to the doc components/daily-picker/props"
   },
   "sidebar.docs.doc.Icon": {
-    "message": "Icon",
+    "message": "Icon 图标",
     "description": "The label for the doc item Icon in sidebar docs, linking to the doc components/icon/props"
   },
   "sidebar.docs.doc.Tag": {
-    "message": "Tag",
+    "message": "Tag 标签",
     "description": "The label for the doc item Tag in sidebar docs, linking to the doc components/tag/props"
   },
   "sidebar.docs.doc.Button": {
-    "message": "Button",
+    "message": "Button 按钮",
     "description": "The label for the doc item Button in sidebar docs, linking to the doc components/button/props"
   },
   "sidebar.docs.doc.Image": {
-    "message": "Image",
+    "message": "Image 图片",
     "description": "The label for the doc item Image in sidebar docs, linking to the doc components/image/props"
   },
   "sidebar.docs.doc.Dropdown": {
-    "message": "Dropdown",
+    "message": "Dropdown 下拉菜单",
     "description": "The label for the doc item Dropdown in sidebar docs, linking to the doc components/dropdown/props"
   },
   "sidebar.docs.doc.Popover": {
-    "message": "Popover",
+    "message": "Popover 弹出框",
     "description": "The label for the doc item Popover in sidebar docs, linking to the doc components/popover/props"
   },
   "sidebar.docs.doc.Card": {
-    "message": "Card",
+    "message": "Card 卡片",
     "description": "The label for the doc item Card in sidebar docs, linking to the doc components/card/props"
   },
   "sidebar.docs.doc.Transfer": {
-    "message": "Transfer",
+    "message": "Transfer 穿梭框",
     "description": "The label for the doc item Transfer in sidebar docs, linking to the doc components/transfer/props"
   },
   "sidebar.docs.doc.Tree": {
-    "message": "Tree",
+    "message": "Tree 树",
     "description": "The label for the doc item Tree in sidebar docs, linking to the doc components/tree/props"
   },
   "sidebar.docs.doc.Steps": {
-    "message": "Steps",
+    "message": "Steps 步骤条",
     "description": "The label for the doc item Steps in sidebar docs, linking to the doc components/steps/props"
   },
   "sidebar.docs.doc.Data": {
-    "message": "数据表格",
+    "message": "table 数据表格",
     "description": "The label for the doc item Data in sidebar docs, linking to the doc components/table/data/props"
   },
   "sidebar.docs.doc.Editor": {
-    "message": "编辑表格",
+    "message": "table 编辑表格",
     "description": "The label for the doc item Editor in sidebar docs, linking to the doc components/table/editor/props"
   },
   "sidebar.docs.doc.Super": {
-    "message": "超级表格",
+    "message": "super-table 超级表格",
     "description": "The label for the doc item Super in sidebar docs, linking to the doc components/table/super/props"
+  },
+  "sidebar.docs.doc.Scene": {
+    "message": "场景",
+    "description": "The label for the doc item Scene in sidebar docs, linking to the doc components/chart/scene/props"
+  },
+  "sidebar.docs.doc.Type": {
+    "message": "类型",
+    "description": "The label for the doc item Type in sidebar docs, linking to the doc components/chart/type/props"
+  },
+  "sidebar.docs.doc.Notice": {
+    "message": "notice 通知框",
+    "description": "The label for the doc item Notice in sidebar docs, linking to the doc components/notice/props"
+  },
+  "sidebar.docs.doc.Alert": {
+    "message": "alert 对话框",
+    "description": "The label for the doc item Alert in sidebar docs, linking to the doc components/alert/props"
+  },
+  "sidebar.docs.doc.Confirm": {
+    "message": "Confirm 气泡框",
+    "description": "The label for the doc item Confirm in sidebar docs, linking to the doc components/confirm/props"
   },
   "sidebar.docs.doc.Banner": {
     "message": "Banner",
@@ -130,30 +150,6 @@
   "sidebar.docs.doc.Toast": {
     "message": "Toast",
     "description": "The label for the doc item Toast in sidebar docs, linking to the doc components/toast/props"
-  },
-  "sidebar.docs.doc.Scene": {
-    "message": "场景",
-    "description": "The label for the doc item Scene in sidebar docs, linking to the doc components/chart/scene/props"
-  },
-  "sidebar.docs.doc.Type": {
-    "message": "类型",
-    "description": "The label for the doc item Type in sidebar docs, linking to the doc components/chart/type/props"
-  },
-  "sidebar.docs.doc.Notice": {
-    "message": "通知框",
-    "description": "The label for the doc item Notice in sidebar docs, linking to the doc components/notice/props"
-  },
-  "sidebar.docs.doc.Alert": {
-    "message": "对话框",
-    "description": "The label for the doc item Alert in sidebar docs, linking to the doc components/alert/props"
-  },
-  "sidebar.docs.doc.Confirm": {
-    "message": "Confirm",
-    "description": "The label for the doc item Confirm in sidebar docs, linking to the doc components/confirm/props"
-  },
-  "sidebar.docs.doc.Message": {
-    "message": "气泡框",
-    "description": "The label for the doc item Message in sidebar docs, linking to the doc components/message/props"
   },
   "sidebar.docs.category.Getting Started": {
     "message": "快速上手",
@@ -248,11 +244,31 @@
     "description": "The label for category contribute in sidebar docs"
   },
   "sidebar.docs.doc.From": {
-    "message": "From",
+    "message": "From 表单",
     "description": "The label for the doc item From in sidebar docs, linking to the doc components/form/props"
   },
   "sidebar.docs.category.Feedback": {
     "message": "Feedback",
     "description": "The label for category Feedback in sidebar docs"
+  },
+  "sidebar.docs.category.Container": {
+    "message": "容器",
+    "description": "The label for category Container in sidebar docs"
+  },
+  "sidebar.docs.doc.Page": {
+    "message": "Page",
+    "description": "The label for the doc item Page in sidebar docs, linking to the doc components/box/page/props"
+  },
+  "sidebar.docs.doc.Pop": {
+    "message": "Pop",
+    "description": "The label for the doc item Pop in sidebar docs, linking to the doc components/box/pop/props"
+  },
+  "sidebar.docs.doc.Module": {
+    "message": "Module",
+    "description": "The label for the doc item Module in sidebar docs, linking to the doc components/box/module/props"
+  },
+  "sidebar.docs.doc.Layout": {
+    "message": "Layout",
+    "description": "The label for the doc item Layout in sidebar docs, linking to the doc components/box/layout/props"
   }
 }
