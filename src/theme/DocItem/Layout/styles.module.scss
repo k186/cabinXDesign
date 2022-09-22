@@ -2,9 +2,12 @@
 .docItemContainer article > *:first-child {
   margin-top: 0;
 }
+.article{
+  margin-top: 20px;
+}
 
 @media (min-width: 997px) {
   .docItemCol {
-    max-width: 960px !important;
+    max-width: 1030px !important;
   }
 }

@@ -10,7 +10,7 @@ import DocItemTOCMobile from '@theme/DocItem/TOC/Mobile';
 import DocItemTOCDesktop from '@theme/DocItem/TOC/Desktop';
 import DocItemContent from '@theme/DocItem/Content';
 import DocBreadcrumbs from '@theme/DocBreadcrumbs';
-import styles from './styles.module.css';
+import styles from './styles.module.scss';
 /**
  * Decide if the toc should be rendered, on mobile or desktop viewports
  */
@@ -37,7 +37,7 @@ export default function DocItemLayout({children}) {
       <div className={clsx('col', !docTOC.hidden && styles.docItemCol)}>
         <DocVersionBanner />
         <div className={styles.docItemContainer}>
-          <article>
+          <article className={styles.article}>
             <DocBreadcrumbs />
             <DocVersionBadge />
             {docTOC.mobile}

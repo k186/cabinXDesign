@@ -49,8 +49,12 @@
   .container.padding-bottom--lg{
     >.row{
       padding-left: 120px;
+
       &:last-child{
         padding-left: 104px;
+        &>.col:first-child{
+          padding-right: 136px;
+        }
       }
     }
   }
